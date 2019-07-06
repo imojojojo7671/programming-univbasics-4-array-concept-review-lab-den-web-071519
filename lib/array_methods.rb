@@ -5,7 +5,7 @@ def find_element_index(array, value_to_find)
   end
   }
   p
-end
+end #returns index of specified value argument
 
 def find_max_value(array)
   max_element = 0
@@ -15,7 +15,7 @@ def find_max_value(array)
   end
   }
   return max_element
-end
+end #find largest integer in array
 
 def find_min_value(array)
   min_element = 10000000
@@ -25,4 +25,4 @@ def find_min_value(array)
   end
   }
   return min_element# Add your solution here
-end
+end #find smallest integer in array
