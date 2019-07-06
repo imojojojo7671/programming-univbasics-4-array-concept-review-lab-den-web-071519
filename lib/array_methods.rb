@@ -2,8 +2,8 @@ def find_element_index(array, value_to_find)
   array.length.times { |index|
   if array[index] == value_to_find
     return index
-  puts "nil"
   end
+  puts "nil"
 }
 # Add your solution here
 end
