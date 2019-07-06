@@ -24,5 +24,5 @@ def find_min_value(array)
     min_element = array[index]
   end
   }
-  return max_element# Add your solution here
+  return min_element# Add your solution here
 end
