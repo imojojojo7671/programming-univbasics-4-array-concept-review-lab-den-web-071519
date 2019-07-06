@@ -18,5 +18,11 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  # Add your solution here
+  min_element = 10000000
+  array.length.times { |index|
+  if min_element < array[index]
+    min_element = array[index]
+  end
+  }
+  return max_element# Add your solution here
 end
