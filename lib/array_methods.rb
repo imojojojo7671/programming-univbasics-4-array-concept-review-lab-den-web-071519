@@ -20,7 +20,7 @@ end
 def find_min_value(array)
   min_element = 10000000
   array.length.times { |index|
-  if min_element < array[index]
+  if min_element > array[index]
     min_element = array[index]
   end
   }
